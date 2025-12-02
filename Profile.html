@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdul Basit - WordPress Website Developer</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+        background-size: cover;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.96);
+        padding: 40px 50px;
+        border-radius: 12px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
+    /* Header */
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header h1 {
+        font-size: 42px;
+        color: #1f3c88;
+        font-weight: 700;
+    }
+    .header h3 {
+        font-size: 22px;
+        color: #555;
+        margin: 10px 0 15px 0;
+        font-weight: 500;
+    }
+    .header h4 {
+        font-size: 36px;
+        color: #1f3c88;
+        font-weight: 700;
+        margin: 30px 0 10px 0;
+    }
+    .header p {
+        font-size: 15px;
+        color: #777;
+    }
+
+    /* Section Title */
+    .section-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1f3c88;
+        border-left: 6px solid #1f3c88;
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+
+    .section {
+        margin-bottom: 35px;
+    }
+
+    /* Buttons */
+    .project-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 30px;
+        margin: 10px 12px 20px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s ease;
+    }
+
+    .project-btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    .download-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 30px;
+        background: #ff5722;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+    .download-btn:hover {
+        background: #e64a19;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Work Experience Cards */
+    .job {
+        background: #f9f9f9;
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.3s;
+    }
+
+    .job:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    @media(max-width: 768px){
+        .container {
+            padding: 25px 20px;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>ABDUL BASIT</h1>
+        <h3>WordPress Website Developer</h3>
+
+        <p>
+            <strong><i class="fas fa-phone"></i> Phone:</strong> +92 318 0709018 |
+            <strong><i class="fas fa-envelope"></i> Email:</strong> 
+            <a href="mailto:basit.khan.tareen008@gmail.com">basit.khan.tareen008@gmail.com</a><br>
+            <strong><i class="fas fa-location-dot"></i> Location:</strong> Satellite Town, Sargodha |
+            <strong>Postal Code:</strong> 40100
+        </p>
+
+        <!-- Download CV Button -->
+        <a href="#" class="download-btn"><i class="fas fa-download"></i> Download CV (PDF)</a>
+    </div>
+
+    <!-- Profile -->
+    <div class="section">
+        <div class="section-title">Profile</div>
+        <p>
+            Detail-oriented WordPress specialist with 3+ years of experience...
+        </p>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="section">
+        <div class="section-title">Work Experience</div>
+
+        <div class="job">
+            <h3>Freelance WordPress Designer (2022 - Present)</h3>
+            <p><strong>Self-employed</strong></p>
+            <ul>
+                <li>Designed responsive WordPress websites for global clients.</li>
+                <li>Improved UI/UX and website structure.</li>
+                <li>Installed SEO, cache & security plugins.</li>
+                <li>Worked directly with clients.</li>
+            </ul>
+        </div>
+
+        <h4>Websites Made by Me</h4>
+
+        <a href="https://songoven.com/" target="_blank" class="project-btn" style="background:#4CAF50;">
+            <i class="fa-solid fa-globe"></i> Visit SongOven
+        </a>
+
+        <a href="http://audiologistonline.com.pk/" target="_blank" class="project-btn" style="background:#2196F3;">
+            <i class="fa-solid fa-user-doctor"></i> Audiologist Online
+        </a>
+
+        <div class="job">
+            <h3>Customer Manager (2024 - Present)</h3>
+            <p><strong>Online Clothing Store</strong></p>
+            <ul>
+                <li>Handled customer orders and communication.</li>
+                <li>Resolved complaints and managed returns.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <p><strong>BS IT (2022–2026, Continue)</strong></p>
+    </div>
+
+    <!-- Languages -->
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <ul>
+            <li>English (Fluent)</li>
+            <li>Urdu (Fluent)</li>
+            <li>Hindi (Fluent)</li>
+            <li>Spanish (Basic)</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
